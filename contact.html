@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>E-commerce website</title>
+  <script type="module" crossorigin src="/assets/toast-dp0qMJ9C.js"></script>
+  <script type="module" crossorigin src="/assets/main-C8b3dyya.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/toast-pcWGTKJT.css">
+</head>
+<body>
+
+  <!-- ========== Start Header section ========== -->
+  <header class="sec-nav">
+    <section class="first_nav">
+      <div class="head container">
+          <div class="head_text">
+              <p>Shop Smart, Live Better!</p>
+          </div>
+
+          <div class="sign_up_in">
+           <a href="#">Sign Up</a>
+           <a href="#">Sign In</a>
+          </div>
+      </div>
+    </section>
+      <section class="second-sec">
+     <div class="container second_nav">
+            <div class="navbar-brand-left">
+              <a href="index.html">
+                <img src="/images/brand-img.png" alt="brand_img" class="brand-logo">
+              </a>
+            </div>
+
+            <div class="nav-link-right">
+              <nav class="nav_link">
+                <ul>
+                    <li class="nav-item">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="about.html">About</a>
+                    </li>
+                    <li  class="nav-item">
+                      <a href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="addToCart.html">
+                        <i class='bx bxs-cart' id="cart"></i>
+                        <p id="item_num"></p>
+                      </a>
+                    </li>
+                  
+                </ul>
+            </nav>
+
+      </div>
+
+    </section>
+  </header>
+
+<!-- ========== Start Section contact ========== -->
+<div class="section-contact" >
+    <div class="container">
+        <h2 class="section-common-heading">Get in touch</h2>
+        <p class="section-common-subheading">
+            We are always here to help you.
+        </p>
+    </div>
+
+    <div class="container  grid-two-cols contact-sec">
+        <div class="contact-content">
+            <form action="https://formspree.io/f/xleqyrgj" method="post">
+                <div class=" grid-two-cols user-gap">
+                    <div class="mb-3">
+                        <label for="username">Username</label><br>
+                        <input type="text" name="username" id="username" required placeholder="Enter your name">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email">Enter your email</label>
+                        <input type="email" name="email" id="email" autocomplete="off" required placeholder="abc@gamail.com">
+                    </div>
+                 
+                </div>
+
+                <div class="mb-3">
+                    <label for="subject">Subject</label><br>
+                    <input type="text" name="subject" id="subject" placeholder="Title will go here">
+                </div>
+
+                <div class="mb-3">
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" cols="30" rows="8" placeholder="Eneter Your message here!"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95785.68797751138!2d78.03352363132082!3d29.952772958606307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909470eb8ee57c9%3A0x4e449176a640f5f3!2sHaridwar%2C%20Uttarakhand!5e1!3m2!1sen!2sin!4v1726900587863!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+   </div>
+<!-- ========== End Section contact ========== -->
+
+
+  <!-- ========== Start Section footer ========== -->
+  <footer>
+    <section class="footer--section"  style="position: relative;">
+      <div class="container footer--div">
+        <!-- About Section -->
+        <div class="footer-about">
+          <h2>About Us</h2>
+          <p>We provide the best products with unmatched quality and competitive prices. Experience a seamless shopping journey with us.</p>
+        </div>
+  
+        <!-- Links Section -->
+        <div class="footer-links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Section -->
+        <div class="footer-contact">
+          <h2>Contact Us</h2>
+          <p>Email: support@ecommerce.com</p>
+          <p>Phone: +91 9876543210</p>
+          <p>Address: 123 Market Street, City, Country</p>
+        </div>
+  
+        <!-- Newsletter Section -->
+        <div class="footer-newsletter">
+          <h2>Subscribe to Our Newsletter</h2>
+          <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="custom-shape-divider-top-1736363171">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+    </section>
+  </footer>
+  
+  
+  
+  <!-- ========== End Section footer ========== -->
+  
+</body>
+</html>
