@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cart page - E-commerce website">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="fetchIdtFLS.js" defer></script>
+
 </head>
 <body>
    
     <header class="sec-nav">
         <section class="first_nav">
+          <h2 style="display: none;">Sign up </h2>
           <div class="head container">
               <div class="head_text">
                   <p>Shop Smart, Live Better!</p>
@@ -28,9 +30,10 @@
         </section>
           <section class="second-sec">
          <div class="container second_nav">
+          <h2 style="display: none;">Shop by Category</h2>
                 <div class="navbar-brand-left">
                   <a href="index.html">
-                    <img src="/images/brand-img.png" alt="brand_img" class="brand-logo">
+                    <img src="/images/brand-img.webp" width="4000" height="4000" alt="brand_img" class="brand-logo">
                   </a>
                 </div>
     
@@ -61,19 +64,22 @@
     
     
           </div>
-    
+          </div>
         </section>
       </header>
     
     <section class="cartElementFLS">
+        <h2 style="display: none;">Cart Section</h2>
        <div class="container">
                 <section>
+                  <h2 style="display: none;">product details</h2>
                     <div id="productCartContainer" >
 
                     </div>
                 </section>
               
                 <section class="summary-container">
+                  <h2 style="display: none;">Total Summary</h2>
                  <div class="totalSummry">
                     <p>Selected total product summary</p>
                     <div class="totalContainer">
@@ -159,6 +165,6 @@
       </div>
       </section>
     </footer>
-    
+       <script type="module" src="fetchIdtFLS.js" ></script> 
 </body>
 </html>

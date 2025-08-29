@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="E-commerce website">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script type="module" src="main.js" defer></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" >
+
   <title>E-commerce website</title>
 </head>
 <body>
@@ -19,20 +20,21 @@
     <section class="first_nav">
       <div class="head container">
           <div class="head_text">
-              <p>Shop Smart, Live Better!</p>
+              <h1>Shop Smart, Live Better!</h1>
           </div>
 
           <div class="sign_up_in">
-           <a href="#">Sign Up</a>
+           <a href="#">Sign Up</a> 
            <a href="#">Sign In</a>
           </div>
       </div>
     </section>
       <section class="second-sec">
+        <h2 style="display: none;">Shop by Category</h2>
      <div class="container second_nav">
             <div class="navbar-brand-left">
               <a href="index.html">
-                <img src="/images/brand-img.png" alt="brand_img" class="brand-logo">
+                <img src="/images/brand-img.webp" width="4000" height="4000" alt="brand_img" class="brand-logo">
               </a>
             </div>
 
@@ -62,12 +64,12 @@
             </nav>
 
       </div>
-
+  </div>
     </section>
   </header>
   <!-- ========== End Header section ========== -->
   
-<!-- ========== Start Hero section ========== -->
+<!-- ========== Start Heroo section ========== -->
 <main>
   <section class="hero-section" style="position: relative;">
     <div class="container grid grid-two-cols">
@@ -80,7 +82,7 @@
       <div class="hero_sec_img">
         <div data-aos="fade-left">
              <figure>
-              <img src="/images/hero-img.png" width="70%" alt="hero-img">
+              <img src="/images/hero.webp" width="3000" height="3000" class="hero-img" alt="hero-img">
              </figure>
              </div>
       </div>
@@ -92,13 +94,14 @@
   </div>
   </section>
 </main>
-<!-- ========== End Hero section ========== -->
+<!-- ========== End Heroo section ========== -->
 
 
 
 
 <!-- ========== Start product Section ========== -->
     <section class="product-section">
+         <h2 style="display: none;">Featured Products</h2>
     <div class="container grid-three--cols pro-container">
       <div class="grid-two-cols ">
           <div class="product_sec_title">
@@ -107,7 +110,7 @@
              <a href="">visit</a>
           </div>
           <div class="pro-img-div">
-            <img src="/images/laptop-img.png" class="pro-img"  alt="">
+            <img src="/images/laptop-img.webp" width="2500" height="2500" class="pro-img"  alt="">
           </div>
       </div>
       <div class="grid-two-cols">
@@ -117,7 +120,7 @@
            <a href="">visit</a>
         </div>
         <div class="pro-img-div">
-          <img src="/images/headphone-img.png" class="pro-img"  alt="">
+          <img src="/images/headphone.webp" width="2867" height="2867" class="pro-img"  alt="">
         </div>
     </div>
     <div class="grid-two-cols">
@@ -127,7 +130,7 @@
          <a href="">visit</a>
       </div>
       <div class="pro-img-div" style="text-align: center;">
-        <img src="/images/Fitbit-img.webp" class="pro-img" alt="">
+        <img src="/images/Fitbit.webp" width="1000" height="1000" class="pro-img" alt="">
       </div>
   </div>
 
@@ -141,6 +144,7 @@
 <!-- ========== Start Section policy ========== -->
 
 <section class="section-policy">
+  <h2 style="display: none;">Our Policies</h2>
   <div class="container grid-four--cols policy-container">
     <div class="div-policy">
       <div class="icon">
@@ -211,7 +215,7 @@
    <template id="product-template">
     <div class="card" id="cardId">
       <div class="card-head" >
-        <img src="./public/laptop-img.png" class="card-img-sec" alt="laptop-img" >
+        <img src="./public/images/samsungPhone.webp" class="card-img-sec" alt="laptop-img" >
         <span class="product_name">Computer</span>
       </div>
       <div class="card-body">
@@ -294,7 +298,7 @@
 
   
         <!-- Scroll to top Button -->
-        <button onclick="scrollToTop()" id="scroll-top--btn">
+        <button type="button" aria-label="Scroll to top" onclick="scrollToTop()" id="scroll-top--btn">
           <i class='bx bxs-chevrons-up'></i>
         </button>
 </footer>
@@ -330,5 +334,6 @@ function scrollToTop() {
 <script>
   AOS.init();
 </script>
+  <script type="module" src="main.js"></script>
 </body>
 </html>
