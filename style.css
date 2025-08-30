@@ -1021,6 +1021,9 @@ font-size: .9rem;
   top: -60px; 
   z-index: 1000; 
 }
+h2{
+  font-size: 1.4rem;
+}
 
 }
 
